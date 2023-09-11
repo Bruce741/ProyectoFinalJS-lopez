@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+img {
+    width: 75%;
+}
+
+.FondoRojo {
+    background-color: red;
+}
+
+.FondoBlanco {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+
+
+/* main */ 
+
+main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "producto1 producto2" 
+    "producto3 producto4"
+    ;
+}
+
+
+
+.producto1 {
+    border: solid 1px black;
+    margin: 100px;
+    grid-area: producto1;
+}
+
+.producto2 {
+    border: solid 1px black;
+    margin: 100px;
+    grid-area: producto2;
+}
+
+.producto3 {
+    border: solid 1px black;
+    margin: 100px;
+    grid-area: producto3;
+}
+
+.producto4 {
+    border: solid 1px black;
+    margin: 100px;
+    grid-area: producto4;
+}
+
+
+
+
+.carrito {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carrito button {
+    margin-left: 100px;
+}
