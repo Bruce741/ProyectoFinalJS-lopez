@@ -1,0 +1,14 @@
+[
+    { "imagen": "../media/Laptop.png", "nombre": "computadora", "precio": 100, "cantidad": 1, "class": "producto1" }, 
+    { "imagen": "../media/Television.jpg", "nombre": "television", "precio": 50, "cantidad": 1, "class": "producto2"},
+    { "imagen": "../media/celular.jpg", "nombre": "celular", "precio": 40, "cantidad": 1, "class": "producto3"},
+    { "imagen": "../media/ps5.jpg", "nombre": "consola", "precio": 100, "cantidad": 1, "class" : "producto4"}
+]
+
+
+
+
+
+
+
+
